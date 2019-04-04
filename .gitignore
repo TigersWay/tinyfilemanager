@@ -1,0 +1,12 @@
+# Windows
+desktop.ini
+folder.ico
+
+# (p)npm
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+
+# Project
+config.php
+dist/

@@ -11,6 +11,8 @@ $CONFIG = '{"lang":"en","error_reporting":false,"show_hidden":false}';
 //TFM version
 define('VERSION', '2.3.5');
 
+{{#> config }}
+
 // Auth with login/password (set true/false to enable/disable it)
 $use_auth = true;
 
@@ -72,6 +74,8 @@ $sticky_navbar = true;
 
 //max upload file size
 define('MAX_UPLOAD_SIZE', '2048');
+
+{{/config}}
 
 // private key and session name to store to the session
 if ( !defined( 'FM_SESSION_ID')) {
